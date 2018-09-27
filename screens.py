@@ -4,7 +4,7 @@ def showSplash():
     output += "|                                     |\n"
     output += "|              MADLIBS                |\n"
     output += "|                 by                  |\n"
-    output += "|              Some Students          |\n"
+    output += "|        Meg Roy and Jared Fortier    |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
 
@@ -15,9 +15,9 @@ def showMenu():
     output = ""
     output += "---------------------------------------\n"
     output += "|Main Menu:                           |\n"
-    output += "|   1) A Story by Spooner             |\n"
+    output += "|   1) A Tale of Two Hearts           |\n"
     output += "|                                     |\n"
-    output += "|   Q) Quit                           |\n"
+    output += "|   2) Story by Meg                   |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
 
