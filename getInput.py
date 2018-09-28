@@ -42,9 +42,28 @@ def getNumber(prompt, minNumber, maxNumber):
         if goodInput and (int(word) < minNumber or int(word) > maxNumber):
             goodInput = False
             print "Out of Range"
-        
-            
     return word
+
+def getSport(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        sports = ["soccer","football","basketball","tennis","volleyball","baseball","archery","track","cross-country","hockey","fieldhockey", "boxing", "curling","cheerleading","rugby","jousting","fencing" ]
+        goodInput = True
+        for character in word:
+            if character not in sports:
+                print "Pick a real sport, please."
+                goodInput = False
+                break
+    return word
+            
+
+
+
+
+
+
+
 
 def isSwear(word):
     swearList = ["poop",
