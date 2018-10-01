@@ -12,7 +12,8 @@ def playMadlibs():
     output += ". Suddenly " + friend1
     output += " said that they saw " + numAnimals + " " + animals1
     output += " I quickly jumped into action. I grabbed a nearby " + singItem + " and I charged into battle."
-    output += " Everything turned into an agressive match of " + getSport + "I was winning and the " +animals1 + " didn't stand a chance."
+    output += " Soon, everything turned into an agressive match of " + sport1 
+    output += " ,I was winning and the " + animals1 + " did not stand a chance."
     
     
     
