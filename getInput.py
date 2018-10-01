@@ -68,6 +68,13 @@ def getSport(prompt):
 def isSwear(word):
     swearList = ["poop",
                 "piss"
+                "ass"
+                "motherfucker"
+                "fuck"
+                "son of a bitch"
+                "bitch"
+                "cunt"
+                "tit"
                 ]
     if word in swearList:
         return True
