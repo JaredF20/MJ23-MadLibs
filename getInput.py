@@ -51,7 +51,20 @@ def getSport(prompt):
         sports = ["soccer",
                   "football",
                   "basketball",
-                  "tennis","volleyball","baseball","archery","track","cross-country","hockey","fieldhockey", "boxing", "curling","cheerleading","rugby","jousting","fencing" ]
+                  "tennis",
+                  "volleyball",
+                  "baseball",
+                  "archery",
+                  "track",
+                  "cross-country",
+                  "hockey",
+                  "fieldhockey", 
+                  "boxing", 
+                  "curling",
+                  "cheerleading",
+                  "rugby",
+                  "jousting",
+                  "fencing" ]
         goodInput= True
         if word not in sports:
             print "Pick a real sport, please."
