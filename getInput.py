@@ -75,6 +75,16 @@ def isSwear(word):
                 "bitch"
                 "cunt"
                 "tit"
+                "assfucker"
+                "whore"
+                "titty"
+                "sperm"
+                "vagina"
+                "penis"
+                "asshole"
+                "retard"
+                "schlong"
+                
                 ]
     if word in swearList:
         return True
