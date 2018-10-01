@@ -19,6 +19,9 @@ def showMenu():
     output += "|                                     |\n"
     output += "|   2) Story by Meg                   |\n"
     output += "|                                     |\n"
+    output += "|   3) Story by Jared                 |\n"
+    output += "|                                     |\n"
+    output += "|   Q) Quit                           |\n"
     output += "---------------------------------------\n"
 
     
