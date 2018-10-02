@@ -73,7 +73,23 @@ def getSport(prompt):
     return word
             
 
-
+def getTown(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        towns = ["newbury"
+                 "bradford"
+                 "sutton"
+                 "warner"
+                 "newlondon"
+                 "wilmot"
+                 "springfield" ]
+        goodInput= True
+        if word not in towns:
+            print "That place is not real."
+            goodInput = False
+            break
+    return word
 
 
 
