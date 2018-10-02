@@ -81,12 +81,12 @@ def getTown(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        towns = ["newbury"
-                 "bradford"
-                 "sutton"
-                 "warner"
-                 "newlondon"
-                 "wilmot"
+        towns = ["newbury",
+                 "bradford",
+                 "sutton",
+                 "warner",
+                 "newlondon",
+                 "wilmot",
                  "springfield" ]
         goodInput= True
         if word not in towns:
