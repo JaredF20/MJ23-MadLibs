@@ -120,7 +120,7 @@ def isSwear(word):
                 "retard"
                 "schlong"
                 "assfucker"
-                "
+                "anus"
                 ]
     if word in swearList:
         return True
