@@ -136,6 +136,8 @@ def isSwear(word):
                 "balls"
                 "testicles"
                 "pussy"
+                "slut"
+                "sluts"
                 ]
     if word in swearList:
         return True
