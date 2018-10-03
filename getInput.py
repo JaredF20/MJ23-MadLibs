@@ -97,6 +97,25 @@ def getTown(prompt):
             print "That place is not real."
     return word
 
+def getWeather(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        weather = ["newbury",
+                 "bradford",
+                 "sutton",
+                 "warner",
+                 "newlondon",
+                 "wilmot",
+                 "springfield" ]
+        goodInput= True
+        if word not in towns:
+            goodInput = False
+            print "That place is not real."
+    return word
+
+
+
 
 def isSwear(word):
     swearList = ["poop",
