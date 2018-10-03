@@ -132,7 +132,10 @@ def isSwear(word):
                 "bitchtits"
                 "wanker"
                 "dickhead"
-                
+                "nutsack"
+                "balls"
+                "testicles"
+                "pussy"
                 ]
     if word in swearList:
         return True
