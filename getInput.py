@@ -10,6 +10,10 @@ def getMenuInput():
             or response == "Two"):
             response = "2"
             goodInput = True
+        elif (response == "3"
+            or response == "three"):
+            response = "3"
+            goodInput = True
         elif (response == "Q"
               or response == "Quit"
               or response == "q"
@@ -92,10 +96,6 @@ def getTown(prompt):
             goodInput = False
             print "That place is not real."
     return word
-
-
-
-
 
 
 def isSwear(word):
