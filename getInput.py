@@ -121,6 +121,18 @@ def isSwear(word):
                 "anus"
                 "dong"
                 "dick"
+                "dongle"
+                "whorehouse"
+                "whore house"
+                "dongles"
+                "nipple"
+                "nipples"
+                "twat"
+                "dickweed"
+                "bitchtits"
+                "wanker"
+                "dickhead"
+                
                 ]
     if word in swearList:
         return True
