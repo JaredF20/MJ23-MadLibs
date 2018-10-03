@@ -73,7 +73,6 @@ def getSport(prompt):
         if word not in sports:
             print "Pick a real sport, please."
             goodInput = False
-            break
     return word
             
 
@@ -90,9 +89,8 @@ def getTown(prompt):
                  "springfield" ]
         goodInput= True
         if word not in towns:
-            print "That place is not real."
             goodInput = False
-            break
+            print "That place is not real."
     return word
 
 
