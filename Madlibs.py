@@ -20,7 +20,7 @@ while go:
     elif response == "2":
         print MegStory.playMadlibs()
         raw_input("Choose your path, traveller")
-     elif response == "3":
+    elif response == "3":
         print JaredStory.playMadlibs()
         raw_input("Choose your path, traveller")
     else:
