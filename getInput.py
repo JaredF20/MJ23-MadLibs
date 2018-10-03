@@ -121,6 +121,8 @@ def isSwear(word):
                 "schlong"
                 "assfucker"
                 "anus"
+                "dong"
+                "dick"
                 ]
     if word in swearList:
         return True
