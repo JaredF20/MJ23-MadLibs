@@ -119,44 +119,44 @@ def getWeather(prompt):
 
 def isSwear(word):
     swearList = ["poop",
-                "piss"
-                "ass"
-                "motherfucker"
-                "fuck"
-                "son of a bitch"
-                "bitch"
-                "cunt"
-                "tit"
-                "assfucker"
-                "whore"
-                "titty"
-                "sperm"
-                "vagina"
-                "penis"
-                "asshole"
-                "retard"
-                "schlong"
-                "assfucker"
-                "anus"
-                "dong"
-                "dick"
-                "dongle"
-                "whorehouse"
-                "whore house"
-                "dongles"
-                "nipple"
-                "nipples"
-                "twat"
-                "dickweed"
-                "bitchtits"
-                "wanker"
-                "dickhead"
-                "nutsack"
-                "balls"
-                "testicles"
-                "pussy"
-                "slut"
-                "sluts"
+                "piss",
+                "ass",
+                "motherfucker",
+                "fuck",
+                "son of a bitch",
+                "bitch",
+                "cunt",
+                "tit",
+                "assfucker",
+                "whore",
+                "titty",
+                "sperm",
+                "vagina",
+                "penis",
+                "asshole",
+                "retard",
+                "schlong",
+                "assfucker",
+                "anus",
+                "dong",
+                "dick",
+                "dongle",
+                "whorehouse",
+                "whore house",
+                "dongles",
+                "nipple",
+                "nipples",
+                "twat",
+                "dickweed",
+                "bitchtits",
+                "wanker",
+                "dickhead",
+                "nutsack",
+                "balls",
+                "testicles",
+                "pussy",
+                "slut",
+                "sluts",
                 ]
     if word in swearList:
         return False
