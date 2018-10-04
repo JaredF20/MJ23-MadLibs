@@ -84,13 +84,13 @@ def getTown(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        towns = ["newbury",
-                 "bradford",
-                 "sutton",
-                 "warner",
-                 "newlondon",
-                 "wilmot",
-                 "springfield" ]
+        towns = ["Newbury",
+                 "Bradford",
+                 "Sutton",
+                 "Warner",
+                 "Newlondon",
+                 "Wilmot",
+                 "Springfield" ]
         goodInput= True
         if word not in towns:
             goodInput = False
@@ -113,8 +113,6 @@ def getWeather(prompt):
             goodInput = False
             print "That place is not real."
     return word
-
-
 
 
 def isSwear(word):
