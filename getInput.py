@@ -101,13 +101,13 @@ def getWeather(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        weather = ["newbury",
-                 "bradford",
-                 "sutton",
-                 "warner",
-                 "newlondon",
-                 "wilmot",
-                 "springfield" ]
+        weather = ["rain",
+                   "snow",
+                   "fog",
+                   "blizzard",
+                   "storm",
+                   "lightning",
+                   "cloudy"]
         goodInput= True
         if word not in towns:
             goodInput = False
