@@ -8,7 +8,7 @@ def playMadlibs():
     building = getWord("Enter a common building in a town: ")
     halloweenC = getWord("Enter a common halloween creature: ")
     bodypart2 = getWord("Enter an appropriate body part: ")
-    yourname = getName("Enter your name: ")
+    yourname = getWord("Enter your name: ")
     
     output = ""
     output += "It was a dark and stormy night in " + Town

@@ -8,14 +8,7 @@ def playMadlibs():
     building = getWord("Enter a common building in a town: ")
 
 
-    
-    output = ""
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
-    output += 
+   
     
     
     
