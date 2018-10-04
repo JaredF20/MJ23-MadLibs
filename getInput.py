@@ -159,6 +159,6 @@ def isSwear(word):
                 "sluts"
                 ]
     if word in swearList:
-        return True
-    else:
         return False
+    else:
+        return True
