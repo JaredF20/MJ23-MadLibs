@@ -18,7 +18,7 @@ def playMadlibs():
     output += " ,I was winning and the " + animals1 + " did not stand a chance. "
     output += " When the battle was done, I claimed my prize: The lovely princess " + friend2
     output += ". It was love at first sight. She had blue eyes that sparkled like " + sparkley
-    output += " One thing lead to another and soon we had our own little guys running around. "
+    output += ". One thing lead to another and soon we had our own little guys running around. "
     output += "Eventually we settled down in the big city of " + townName + " and lived happily ever after."
     
     
