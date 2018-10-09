@@ -107,11 +107,22 @@ def getWeather(prompt):
                    "blizzard",
                    "storm",
                    "lightning",
-                   "cloudy"]
+                   "cloudy",
+                   "clear",
+                   "thunder",
+                   "hail",
+                   "sleet",
+                   "sunshower",
+                   "windy",
+                   "overcast",
+                   "haze",
+                   "tornado",
+                   "hurricane",
+                   "tropical storm"]
         goodInput= True
-        if word not in towns:
+        if word not in weather:
             goodInput = False
-            print "That place is not real."
+            print "Not in the weather forecast"
     return word
 
 

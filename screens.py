@@ -4,7 +4,7 @@ def showSplash():
     output += "|                                     |\n"
     output += "|              MADLIBS                |\n"
     output += "|                 by                  |\n"
-    output += "|        Meg Roy and Jared Fortier    |\n"
+    output += "|     Meg Roy and Jared Fortier       |\n"
     output += "|                                     |\n"
     output += "---------------------------------------\n"
 
