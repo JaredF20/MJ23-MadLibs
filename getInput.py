@@ -39,7 +39,7 @@ def getWord(prompt):
 def getNumber(prompt, minNumber, maxNumber):
     goodInput = False
     while not goodInput:
-        word = raw_input(prompt+" (Between " + str(minNumber) +  " and " + str(maxNumber) + ") ")
+        word = raw_input(" (Between " + str(minNumber) +  " and " + str(maxNumber) + ") " + prompt)
         nums = ["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"]
         goodInput = True
         for character in word:
