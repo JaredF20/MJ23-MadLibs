@@ -210,3 +210,15 @@ def isSwear(word):
         return True
     else:
         return False
+
+def getSwear(prompt):
+    goodInput = False
+    while not goodInput:
+        word = raw_input(prompt)
+        if isSwear(word):
+            goodInput = True
+        else:
+            print "This is swear world motherfucker"
+        return word 
+        
+    
