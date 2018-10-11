@@ -14,6 +14,12 @@ def getMenuInput():
             or response == "three"):
             response = "3"
             goodInput = True
+        elif (response == "4"
+            or response == "four"):
+            response = "4"
+            goodInput = True
+            
+            
         elif (response == "Q"
               or response == "Quit"
               or response == "q"
@@ -79,7 +85,6 @@ def getSport(prompt):
             goodInput = False
     return word
             
-
 def getTown(prompt):
     goodInput = False
     while not goodInput:
@@ -124,7 +129,6 @@ def getWeather(prompt):
             goodInput = False
             print "Not in the weather forecast"
     return word
-
 
 def isSwear(word):
     swearList = ["poop",
@@ -211,11 +215,11 @@ def isSwear(word):
     else:
         return False
 
-def getSwear(prompt):
+def SwearMode(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        if isSwear(word):
+        if SwearMode(word):
             goodInput = True
         else:
             print "This is swear world motherfucker"

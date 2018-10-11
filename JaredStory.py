@@ -1,6 +1,7 @@
 from getInput import * 
 
 def playMadlibs():
+    print "Create this character wit and care and maybe you will find that the story fair."
     friend1 = getWord("Enter a Name: ")
     action = getWord("Enter a past-tense verb: ")
     sound = getWord("Enter a random sound: ")
@@ -12,17 +13,7 @@ def playMadlibs():
     Items1 = getWord("Enter a plural household item: ")
     insect1 = getWord("Enter a scary insect: ")
     sport1 = getSport("Enter a common sport: ")
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
     output = ""
     output += " My teacher Mr. " + friend1 + " probably thinks I'm an idiot." 
     output += " Things started off pretty bad when I accidentally " + action + " his new computer with my fist."

@@ -8,8 +8,8 @@ def showSplash():
     output += "|                                     |\n"
     output += "---------------------------------------\n"
 
-    
     return output
+    
     
 def showMenu():
     output = ""
@@ -23,6 +23,47 @@ def showMenu():
     output += "|                                     |\n"
     output += "|   Q) Quit                           |\n"
     output += "---------------------------------------\n"
-
     
     return output
+
+
+def quitGame():
+    output = ""
+    output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+    output += "$                                       $\n"
+    output += "$                                       $\n"
+    output += "$          So Long Traveller            $\n"
+    output += "$                                       $\n"
+    output += "$      Thanks For Playing Our Game      $\n"
+    output += "$                                       $\n"
+    output += "$         We Will Remember You          $\n"
+    output += "$                                       $\n"
+    output += "$        Be Safe and Be Yourself        $\n"
+    output += "$                                       $\n"
+    output += "$                                       $\n"
+    output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+
+    return output
+
+
+
+
+
+
+
+
+def secretHint():
+    output = ""
+    output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+    output += "$                                       $\n"
+    output += "$                                       $\n"
+    output += "$            Here's the Deal            $\n"
+    output += "$                                       $\n"
+    output += "$      Thanks For Playing Our Game      $\n"
+    output += "$                                       $\n"
+    output += "$         We Will Remember You          $\n"
+    output += "$                                       $\n"
+    output += "$        Be Safe and Be Yourself        $\n"
+    output += "$                                       $\n"
+    output += "$                                       $\n"
+    output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
