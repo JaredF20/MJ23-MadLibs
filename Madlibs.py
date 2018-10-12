@@ -24,7 +24,11 @@ while go:
         print JaredStory.playMadlibs()
         raw_input("Press Enter to Continue")
     elif response == "4":
-        print quitGame()
+        print secretHint()
+        raw_input("Press Enter to Continue")
+    elif response == "Sloth":
+        print "Welcome to Swear World Mother Duck"
+        
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"

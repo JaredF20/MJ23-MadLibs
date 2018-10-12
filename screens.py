@@ -46,12 +46,6 @@ def quitGame():
     return output
 
 
-
-
-
-
-
-
 def secretHint():
     output = ""
     output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
@@ -59,11 +53,13 @@ def secretHint():
     output += "$                                       $\n"
     output += "$            Here's the Deal            $\n"
     output += "$                                       $\n"
-    output += "$      Thanks For Playing Our Game      $\n"
+    output += "$       To Unlock the Secret Mode       $\n"
     output += "$                                       $\n"
-    output += "$         We Will Remember You          $\n"
+    output += "$      Type the word for the animal     $\n"
     output += "$                                       $\n"
-    output += "$        Be Safe and Be Yourself        $\n"
+    output += "$     Whose movements are super slow    $\n"
     output += "$                                       $\n"
     output += "$                                       $\n"
     output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
+    
+    return output
