@@ -216,14 +216,3 @@ def isSwear(word):
     else:
         return False
 
-def SwearMode(prompt):
-    goodInput = False
-    while not goodInput:
-        word = raw_input(prompt)
-        if isSwear(word):
-            goodInput = True
-        else:
-            print "Swears only, bitch"
-            
-        
-    return word 
