@@ -1,6 +1,5 @@
 from screens import *
 from getInput import *
-from swear import *
 import story1
 import MegStory
 import JaredStory
@@ -28,9 +27,9 @@ while go:
         print secretHint()
         raw_input("Press Enter to Continue")
     elif response == "Sloth":
-        print "Welcome to Swear World Mother Duck"
-        
-        print story1.playMadlibs()
+        print "Welcome to Swear World, Comrade"
+        print SwearMode()
+        print story1.playMadlibs
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"
