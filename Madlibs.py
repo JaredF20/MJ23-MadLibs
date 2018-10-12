@@ -27,7 +27,7 @@ while go:
         print secretHint()
         raw_input("Press Enter to Continue")
     elif response == "Sloth":
-        print "Welcome to Swear World Mother Duck"
+        print "Welcome to Swear World, Comrade"
         print SwearMode()
         print story1.playMadlibs
         raw_input("Press Enter to Continue")
