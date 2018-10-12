@@ -219,10 +219,10 @@ def SwearMode(prompt):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        if SwearMode(word):
+        if is isSwear(word):
             goodInput = True
         else:
-            print "This is swear world motherfucker"
-        return word 
+            print "Swears only, bitch"
+            
         
-    
+    return word 
