@@ -28,7 +28,8 @@ while go:
         raw_input("Press Enter to Continue")
     elif response == "Sloth":
         print "Welcome to Swear World Mother Duck"
-        
+        print SwearMode()
+        print story1.playMadlibs
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"
