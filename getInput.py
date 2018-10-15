@@ -33,14 +33,20 @@ def getMenuInput():
             print "Please make a valid choice"
     return response
     
-def getWord(prompt):
+def getWord(prompt, sm = False):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        if not isSwear(word):
-            goodInput = True
+        if not sm:
+            if not isSwear(word):
+                goodInput = True
+            else:
+                print "Watch your language!"
         else:
-            print "Watch your language!"
+            if isSwear(word):
+                goodInput = True
+            else:
+                print "Watch your language!"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):

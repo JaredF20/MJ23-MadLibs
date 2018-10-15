@@ -2,16 +2,16 @@ from getInput import *
 
 def playMadlibs():
     print "Create this character wit and care and maybe you will find that the story fair."
-    friend1 = getWord("Enter a Name: ")
-    action = getWord("Enter a past-tense verb: ")
-    sound = getWord("Enter a random sound: ")
-    place1 = getWord("Enter a foreign country: ")
-    animals1 = getWord("Enter a plural animal name: ")
-    food1 = getWord("Enter a common food: ")
+    friend1 = getWord("Enter a Name: ", sm)
+    action = getWord("Enter a past-tense verb: ", sm)
+    sound = getWord("Enter a random sound: ", sm)
+    place1 = getWord("Enter a foreign country: ", sm)
+    animals1 = getWord("Enter a plural animal name: ", sm)
+    food1 = getWord("Enter a common food: ", sm)
     weather = getWeather("Enter a common weather condition: ")
     numItems = getNumber("Enter a number: ", 2, 10)
-    Items1 = getWord("Enter a plural household item: ")
-    insect1 = getWord("Enter a scary insect: ")
+    Items1 = getWord("Enter a plural household item: ", sm)
+    insect1 = getWord("Enter a scary insect: ", sm)
     sport1 = getSport("Enter a common sport: ")
 
     output = ""
