@@ -5,7 +5,7 @@ def SwearMode(prompt):
         if swearList(word):
             goodInput = True
         else:
-            print "Swears only, bitch"
+            print "Swears only, bitchacho"
             
         
     return word 
