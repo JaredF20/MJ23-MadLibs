@@ -29,7 +29,6 @@ while go:
     elif response == "Sloth":
         print "Welcome to Swear World, Comrade"
         from swear import SwearMode
-        print story1.playMadlibs()
         raw_input("Press Enter to Continue")
     else:
         print "OMG Got invalid menu option!!!"
