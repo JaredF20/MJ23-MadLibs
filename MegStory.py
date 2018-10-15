@@ -1,14 +1,14 @@
 from getInput import * 
 
-def playMadlibs():
+def playMadlibs(sm = False):
     Town = getTown("Enter a town in the Kearsarge District: ")
-    friend1 = getWord("Enter a name: ")
-    bodypart = getWord("Enter an appropriate body part: ") 
-    numAnimals = getWord("Enter a plural animal name: ")
-    building = getWord("Enter a common building in a town: ")
-    halloweenC = getWord("Enter a common halloween creature: ")
-    bodypart2 = getWord("Enter an appropriate body part: ")
-    yourname = getWord("Enter your name: ")
+    friend1 = getWord("Enter a name: ", sm)
+    bodypart = getWord("Enter an appropriate body part: ", sm) 
+    numAnimals = getWord("Enter a plural animal name: ", sm)
+    building = getWord("Enter a common building in a town: ", sm)
+    halloweenC = getWord("Enter a common halloween creature: ", sm)
+    bodypart2 = getWord("Enter an appropriate body part: ", sm)
+    yourname = getWord("Enter your name: ", sm)
     
     output = ""
     output += "It was a dark and stormy night in " + Town
