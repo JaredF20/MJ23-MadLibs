@@ -46,7 +46,7 @@ def getWord(prompt, sm = False):
             if isSwear(word):
                 goodInput = True
             else:
-                print "Watch your language!"
+                print "Swears only bitchacho"
     return word
     
 def getNumber(prompt, minNumber, maxNumber):
