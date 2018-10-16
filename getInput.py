@@ -69,7 +69,10 @@ def getSport(prompt, sm = False):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
-        sports = ["soccer",
+        if not sm:
+            if word in sports:
+                goodInput = True
+                sports = ["soccer",
                   "football",
                   "basketball",
                   "tennis",
@@ -86,9 +89,6 @@ def getSport(prompt, sm = False):
                   "rugby",
                   "jousting",
                   "fencing" ]
-        if not sm:
-            if word in sports:
-                goodInput = True
             else:
                 print "Not a real sport!"
         else:
