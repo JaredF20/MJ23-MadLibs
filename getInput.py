@@ -220,7 +220,16 @@ def isSwear(word):
                 "fucking"
                 "Fucked",
                 "Fucking",
-                
+                "assfucking" ,
+                "assfucked",
+                "gangbanging",
+                "gangbanged",
+                "foreplay",
+                "fuckface",
+                "douchecanoe",
+                "clusterfuck",
+                "fuckstick",
+                "prick",        
                 ]
     if word in swearList:
         return True
