@@ -65,7 +65,7 @@ def getNumber(prompt, minNumber, maxNumber):
             print "Out of Range"
     return word
 
-def getSport(prompt):
+def getSport(prompt, sm = False):
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
@@ -86,10 +86,16 @@ def getSport(prompt):
                   "rugby",
                   "jousting",
                   "fencing" ]
-        goodInput= True
-        if word not in sports:
-            print "Pick a real sport, please."
-            goodInput = False
+        if not sm:
+            if word in sports:
+                goodInput = True
+            else:
+                print "Not a real sport!"
+        else:
+            if isSwear(word):
+                goodInput = True
+            else:
+                print "Swears only bitchacho"
     return word
             
 def getTown(prompt):
@@ -130,6 +136,7 @@ def getWeather(prompt):
                    "haze",
                    "tornado",
                    "hurricane",
+                   "sunny",
                    "tropical storm"]
         goodInput= True
         if word not in weather:
