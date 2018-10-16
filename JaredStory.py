@@ -21,7 +21,7 @@ def playMadlibs(sm = False):
     output += " The next week things got even worse. I was doing a report on " + place1 + " except I accidentally talked about " + animals1 + " the entire time."
     output += friend1 + " was so upset. He told me I was a complete and utter " + food1 + "."
     output += " I was livid. I was going to make it " + weather + " in his classroom."
-    output += " I quickly grabbed " + numItems + Items1 + " and swung them at " + friend1 + "."
+    output += " I quickly grabbed " + numItems +  Items1 + " and swung them at " + friend1 + "."
     output += " Long story short, I was expelled. I got the last laugh though, because before I left I put a " + insect1 + " in the " + sport1 + " team's locker room. And guess what teacher was the head coach?" 
     
     
