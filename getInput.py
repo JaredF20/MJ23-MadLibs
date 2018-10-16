@@ -222,8 +222,6 @@ def isSwear(word):
     else:
         return False
 
-
-
 def SwearMode(prompt):
     goodInput = False
     while not goodInput:
