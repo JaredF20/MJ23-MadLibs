@@ -1,6 +1,6 @@
 from getInput import * 
 
-def playMadlibs(sm = false):
+def playMadlibs(sm = False):
     print "Create this character wit and care and maybe you will find that the story fair."
     friend1 = getWord("Enter a Name: ", sm)
     action = getWord("Enter a past-tense verb: ", sm)

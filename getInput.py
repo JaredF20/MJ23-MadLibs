@@ -216,6 +216,11 @@ def isSwear(word):
                 "Pussy",
                 "Slut",
                 "Sluts",
+                "fucked",
+                "fucking"
+                "Fucked",
+                "Fucking",
+                
                 ]
     if word in swearList:
         return True
