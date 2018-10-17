@@ -21,6 +21,8 @@ def showMenu():
     output += "|                                     |\n"
     output += "|   3) Bad Student                    |\n"
     output += "|                                     |\n"
+    output += "|   4) Surprise                       |\n"
+    output += "|                                     |\n"
     output += "|   Q) Quit                           |\n"
     output += "---------------------------------------\n"
     
