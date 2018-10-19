@@ -107,7 +107,7 @@ def getTown(prompt):
                  "Bradford",
                  "Sutton",
                  "Warner",
-                 "Newlondon",
+                 "New London",
                  "Wilmot",
                  "Springfield" ]
         goodInput= True
