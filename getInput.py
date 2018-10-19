@@ -28,6 +28,7 @@ def getMenuInput():
               goodInput = True    
         elif (response == "Sloth"
               or response == "sloth"):
+              response = "Sloth"
               goodInput = True
         else:
             print "Please make a valid choice"
