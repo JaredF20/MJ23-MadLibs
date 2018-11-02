@@ -47,7 +47,7 @@ def quitGame():
 
     return output
 
-
+# Excellent
 def secretHint():
     output = ""
     output += "$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$\n"
