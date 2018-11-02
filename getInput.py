@@ -93,7 +93,7 @@ def getSport(prompt, sm = False):
                     goodInput = True
                 else:
                     print "Not a real sport!"
-        else:
+        else: #In swearmode this doesn't get sports
             if isSwear(word):
                 goodInput = True
             else:
@@ -245,7 +245,7 @@ def isSwear(word):
     else:
         return False
 
-def SwearMode(prompt):
+def SwearMode(prompt): #Is this used?
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
