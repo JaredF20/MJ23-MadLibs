@@ -1,7 +1,7 @@
 from getInput import * 
 
 def playMadlibs(sm = False):
-    Town = getTown("Enter a town in the Kearsarge District: ")
+    Town = getTown("Enter a town in the Kearsarge District: ") #this should be lowercase, but doen't effect running
     friend1 = getWord("Enter a name: ", sm)
     bodypart = getWord("Enter an appropriate body part: ", sm) 
     numAnimals = getWord("Enter a plural animal name: ", sm)
