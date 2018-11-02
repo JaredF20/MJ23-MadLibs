@@ -1,4 +1,4 @@
-def SwearMode(prompt):
+def SwearMode(prompt): #is this file used? If not it should be removed
     goodInput = False
     while not goodInput:
         word = raw_input(prompt)
